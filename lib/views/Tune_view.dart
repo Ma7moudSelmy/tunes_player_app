@@ -1,37 +1,28 @@
 import 'package:flutter/material.dart';
+import 'package:tunes_player_app/widgets/Tune_view%20items.dart';
+
 class Tuneview extends StatelessWidget {
-  final Color? color;
-  const Tuneview({super.key, this.color});
+  const Tuneview({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(children: [
-Tuneview(
-  color:Colors.red
-),
-Tuneview(
-  color:Colors.red
-),
-Tuneview(
-  color:Colors.red
-),
-Tuneview(
-  color:Colors.red
-),
-Tuneview(
-  color:Colors.red
-),
-Tuneview(
-  color:Colors.red
-),
-
-
-      ],),
-      appBar: AppBar(title: Text(" flutter Tune view"),
-      centerTitle: true,
+      appBar: AppBar(
+        title: Text("Flutter Tune View\n Ma7moudSelmy"),
+        centerTitle: true,
         backgroundColor: const Color.fromARGB(255, 67, 68, 68),
         elevation: 0,
+      ),
+      body: Column(
+        children: const [
+          TuneViewitems(color: Colors.red),
+          TuneViewitems(color: Colors.orange),
+          TuneViewitems(color: Colors.yellow),
+          TuneViewitems(color: Colors.green),
+          TuneViewitems(color: Colors.blue),
+          TuneViewitems(color: Colors.indigo),
+          TuneViewitems(color: Colors.purple),
+        ],
       ),
     );
   }
