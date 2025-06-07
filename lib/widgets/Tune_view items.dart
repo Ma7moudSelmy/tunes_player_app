@@ -7,11 +7,11 @@ class TuneViewitems extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      height: 105,
-      
-      width: double.infinity,
-      color: color,
+    return Expanded(
+      child: Container(
+        
+        color: color,
+      ),
     );
   }
 }

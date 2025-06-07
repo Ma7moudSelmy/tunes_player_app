@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
 import 'package:tunes_player_app/widgets/Tune_view%20items.dart';
+import 'package:flutter/material.dart';
 
 class Tuneview extends StatelessWidget {
   const Tuneview({super.key});
@@ -22,6 +22,9 @@ class Tuneview extends StatelessWidget {
           TuneViewitems(color: Colors.blue),
           TuneViewitems(color: Colors.indigo),
           TuneViewitems(color: Colors.purple),
+          TuneViewitems(color: Colors.pink),
+          
+        
         ],
       ),
     );
